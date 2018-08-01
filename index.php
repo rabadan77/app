@@ -1,19 +1,21 @@
-<?php
+<?php 
 
-require_once 'vendor/autoload.php';
+require_once("vendor/autoload.php");
 
-echo "Hello World!";
-/*
-$sql = new App\DB\Sql();
+$app = new \Slim\Slim();
 
+$app->config('debug', true);
 
-$usuarios = $sql->select("SELECT * FROM usuarios");
+$app->get('/', function() {
+    
+	$sql = new \Agaerre\DB\Sql();
+        
+        $results = $sql->select("SELECT * FROM usuarios");
+        
+        echo json_encode($results);
 
-echo json_encode($usuarios);
- */
- $root = new App\Teste\Usuario();
- $root->loadById(1);
- echo $root;
- 
-echo "<hr>";
- 
+});
+
+$app->run();
+
+ ?>

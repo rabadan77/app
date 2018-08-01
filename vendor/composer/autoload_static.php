@@ -9,18 +9,25 @@ class ComposerStaticInit7f49c5e11ddab81cf3917f4ec52af641
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
-            'App\\' => 4,
+            'Agaerre\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' => 
+        'Agaerre\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/App',
+            0 => __DIR__ . '/..' . '/agaerre/php-classes/src',
         ),
     );
 
     public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Slim' => 
+            array (
+                0 => __DIR__ . '/..' . '/slim/slim',
+            ),
+        ),
         'R' => 
         array (
             'Rain' => 
