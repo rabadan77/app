@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3d14c0ab7db88dd7a672cfcf17ddde6",
+    "content-hash": "94413f5e21d988c2f192970a472e2ed9",
     "packages": [
         {
             "name": "rain/raintpl",
