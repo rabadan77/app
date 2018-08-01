@@ -1,0 +1,14 @@
+{
+    "name": "rabadan77/app",
+    "description": "Descrição do projeto app.",
+    "authors": [
+        {
+            "name": "Henrique Rabadan",
+            "email": "admin@agaerre.com.br"
+        }
+    ],
+        "require": {
+        "rain/raintpl": ">=3.0.0"
+    }
+    
+}
